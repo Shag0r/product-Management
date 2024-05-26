@@ -1,0 +1,54 @@
+<div class="text-center">
+    <h1 class="text-4xl font-bold mb-6 text-indigo-600">The Home Component</h1>
+    <div class="inline-block">
+        <table class="table-fixed border-collapse border border-indigo-500 bg-white shadow-lg rounded-lg">
+            <tr>
+                <td class="border border-indigo-300 p-6">
+                    <h1 class="text-2xl font-semibold mb-4 text-indigo-600">Technologies</h1>
+                    <ol class="list-decimal list-inside text-left text-gray-700">
+                        <li>Artificial Intelligence</li>
+                        <li>Blockchain</li>
+                        <li>Quantum Computing</li>
+                        <li>Internet of Things (IoT)</li>
+                        <li>5G Networks</li>
+                    </ol>
+                </td>
+                <td class="border border-indigo-300 p-6">
+                    <h1 class="text-2xl font-semibold mb-4 text-indigo-600">Frameworks</h1>
+                    <ul class="list-disc list-inside text-left text-gray-700">
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>Django</li>
+                        <li>Spring</li>
+                        <li>Vue.js</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="flex justify-center mb-4 mt-4 p-5 border border-blue-500 rounded align-middle ">
+    <div class="">
+        <app-search (search)="OnSearch($event)"></app-search>
+    </div>
+
+
+</div>
+
+<div class="p-8 mt-4">
+    <div class="flex flex-wrap">
+
+
+        @for (item of filteredProduct; track $index) {
+
+        <div class="w-4/12 pr-2 mb-2">
+            <app-product-card [products]="item" (Viewproduct)="OnViewProducts($event)"></app-product-card>
+
+
+        </div>
+
+        }
+
+    </div>
+
+</div>

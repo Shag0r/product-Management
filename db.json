@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "ProductName": "Smartphone X123",
+      "ProductBrand": "TechBrand",
+      "ProductDetails": "Latest smartphone with high-speed processor and HD display.",
+      "Price": 999.99,
+      "DiscountPrice": 899.99,
+      "DiscountPercent": 10
+    },
+    {
+      "id": "2",
+      "ProductName": "Gaming Laptop Pro",
+      "ProductBrand": "GameTech",
+      "ProductDetails": "High-performance laptop with RGB keyboard and powerful GPU.",
+      "Price": 1999.99,
+      "DiscountPrice": 1799.99,
+      "DiscountPercent": 10
+    },
+    {
+      "id": "3",
+      "ProductName": "Wireless Earbuds",
+      "ProductBrand": "SoundWave",
+      "ProductDetails": "Noise-canceling earbuds with long battery life and clear sound.",
+      "Price": 149.99,
+      "DiscountPrice": 129.99,
+      "DiscountPercent": 13
+    },
+    {
+      "id": "4",
+      "ProductName": "Smartwatch 5G",
+      "ProductBrand": "WristTech",
+      "ProductDetails": "Fitness tracking smartwatch with 5G connectivity and OLED screen.",
+      "Price": 299.99,
+      "DiscountPrice": 249.99,
+      "DiscountPercent": 17
+    },
+    {
+      "id": "5",
+      "ProductName": "4K Ultra HD TV",
+      "ProductBrand": "VisionPlus",
+      "ProductDetails": "Large 4K TV with smart features and vivid picture quality.",
+      "Price": 1199.99,
+      "DiscountPrice": 999.99,
+      "DiscountPercent": 17
+    },
+    {
+      "id": "6",
+      "ProductName": "Bluetooth Speaker Max",
+      "ProductBrand": "SoundWave",
+      "ProductDetails": "Portable Bluetooth speaker with rich bass and long battery life.",
+      "Price": 199.99,
+      "DiscountPrice": 179.99,
+      "DiscountPercent": 10
+    },
+    {
+      "id": "7",
+      "ProductName": "Smart Home Hub",
+      "ProductBrand": "HomeSync",
+      "ProductDetails": "Centralized hub for managing all your smart home devices.",
+      "Price": 299.99,
+      "DiscountPrice": 269.99,
+      "DiscountPercent": 10
+    },
+    {
+      "id": "8",
+      "ProductName": "Drone Pro 4K",
+      "ProductBrand": "FlyTech",
+      "ProductDetails": "Advanced drone with 4K camera and GPS stabilization.",
+      "Price": 799.99,
+      "DiscountPrice": 699.99,
+      "DiscountPercent": 13
+    },
+    {
+      "id": "9",
+      "ProductName": "Fitness Tracker Pro",
+      "ProductBrand": "HealthGear",
+      "ProductDetails": "Waterproof fitness tracker with heart rate monitor and sleep tracking.",
+      "Price": 99.99,
+      "DiscountPrice": 79.99,
+      "DiscountPercent": 20
+    },
+    {
+      "id": "10",
+      "ProductName": "VR Headset Elite",
+      "ProductBrand": "VirtualVibe",
+      "ProductDetails": "High-resolution VR headset with immersive sound and ergonomic design.",
+      "Price": 499.99,
+      "DiscountPrice": 449.99,
+      "DiscountPercent": 10
+    },
+    {
+      "id": "a1f2",
+      "ProductName": "Smart Home Assistant",
+      "ProductBrand": "TechSmart",
+      "ProductDetails": "Voice-controlled smart home assistant with built-in speakers and smart home integration.",
+      "Price": "149.99",
+      "DiscountPrice": "119.99",
+      "DiscountPercent": "20"
+    },
+    {
+      "id": 100,
+      "ProductName": "Portable Blender",
+      "ProductBrand": "BlendMaster",
+      "ProductDetails": "Compact and powerful portable blender for making smoothies and shakes on the go.",
+      "Price": "49.99",
+      "DiscountPrice": "39.99",
+      "DiscountPercent": "20"
+    },
+    {
+      "id": 100,
+      "ProductName": "Smartwatch Pro",
+      "ProductBrand": "TechWear",
+      "ProductDetails": "Advanced smartwatch with fitness tracking, GPS, heart rate monitor, and water resistance.",
+      "Price": "199.99",
+      "DiscountPrice": "159.99",
+      "DiscountPercent": "20"
+    },
+    {
+      "id": 584410846357,
+      "ProductName": "4K Action Camera",
+      "ProductBrand": "AdventureCam",
+      "ProductDetails": "Compact 4K action camera with waterproof housing, image stabilization, and WiFi connectivity.",
+      "Price": "149.99",
+      "DiscountPrice": "119.99",
+      "DiscountPercent": "20"
+    },
+    {
+      "id": 455,
+      "ProductName": "ireless Charging Pad",
+      "ProductBrand": "ChargeFast",
+      "ProductDetails": "Fast wireless charging pad with Qi certification and overcharge protection.",
+      "Price": "39.99",
+      "DiscountPrice": "29.99",
+      "DiscountPercent": "25"
+    }
+  ]
+}

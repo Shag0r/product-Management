@@ -1,0 +1,26 @@
+<div class="flex justify-center my-5 ">
+    <mat-card class="example-card  ">
+        <div class="p-4 border border-red-500 rounded">
+            <h1>{{products.ProductName}}</h1>
+            <h2>{{products.ProductBrand}}</h2>
+            <p>{{products.ProductDetails}}</p>
+            <div class="flex flex-row gap-2 text-xl">
+                <p>{{products.Price}} tk</p>
+                <p><s class="text-red-700">{{products.DiscountPrice}}</s>tk</p>
+                <p>({{products.DiscountPercent}}) % OFF</p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </mat-card>
+
+</div>
+<div class="flex justify-center">
+    <button mat-raised-button color="warn" [routerLink]="'/edit-product/'+products.id"> Edit Product Detailes</button>
+
+</div>

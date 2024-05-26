@@ -1,0 +1,11 @@
+<div class="w-full  flex flex-row gap-1">
+    <mat-form-field class="example-full-width">
+        <mat-label>Product</mat-label>
+        <input matInput name="search" [(ngModel)]="text" placeholder="Search" value="">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="OnSearch()">Search</button>
+
+</div>
+<div class="flex justify-self-center">
+    <button mat-raised-button color="warn" routerLink="/add-product"> Add Product</button>
+</div>

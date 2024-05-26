@@ -1,0 +1,49 @@
+<div class="p-8">
+    <div class="p-8 mt-8 border shadow-blue-500 shadow-md rounded ">
+        <form [formGroup]="productForm" action="" (ngSubmit)="EditProduct()">
+            <div class="flex  justify-between  p-2 gap-2  ">
+                <mat-form-field class="w-full">
+                    <input matInput name="ProductName" formControlName="ProductName"
+                        placeholder="Enter you product name">
+                </mat-form-field>
+                <mat-form-field class="w-full">
+                    <input matInput name="ProductBrand" formControlName="ProductBrand"
+                        placeholder="Enter you product brand name">
+                </mat-form-field>
+
+            </div>
+            <div class="">
+                <mat-form-field class="w-full p-2">
+                    <mat-label>Product Detailes</mat-label>
+                    <textarea matInput name="ProductDetails" formControlName="ProductDetails"></textarea>
+                </mat-form-field>
+
+
+            </div>
+            <div class="flex  justify-between  p-2 gap-2  ">
+                <mat-form-field class="w-full">
+                    <input matInput name="Price" formControlName="Price" placeholder="Enter you product price">
+                </mat-form-field>
+                <mat-form-field class="w-full">
+                    <input matInput name="DiscountPrice" formControlName="DiscountPrice"
+                        placeholder="Enter you product DiscountPercent">
+                </mat-form-field>
+                <mat-form-field class="w-full">
+                    <input matInput name="DiscountPercent" formControlName="DiscountPercent"
+                        placeholder="Enter you DiscountPercent">
+                </mat-form-field>
+
+            </div>
+            <div class="flex justify-center">
+                <button mat-raised-button color="warn"> Edit Product</button>
+
+            </div>
+
+
+
+
+        </form>
+
+    </div>
+
+</div>

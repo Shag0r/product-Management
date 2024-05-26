@@ -1,0 +1,22 @@
+<mat-card class="example-card">
+    <div class="p-4">
+        <h1>{{products.ProductName}}</h1>
+        <h2>{{products.ProductBrand}}</h2>
+        <p>{{products.ProductDetails}}</p>
+        <div class="flex flex-row gap-2 text-xl">
+            <p>{{products.Price}} tk</p>
+            <p><s class="text-red-700">{{products.DiscountPrice}}</s>tk</p>
+            <p>({{products.DiscountPercent}}) % OFF</p>
+        </div>
+
+    </div>
+    <div class="text-center p-5">
+        <button mat-fab color="warn" aria-label="Example icon button with a home icon" (click)="View()">
+            Click
+        </button>
+
+
+    </div>
+
+
+</mat-card>
